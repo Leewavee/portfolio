@@ -8,6 +8,7 @@
 [Переглянути репозиторій](https://github.com/Leewavee/portfolio)
 ### Загальний репозиторій
 [Перейти до загального репозиторію](https://github.com/PorokhovnichenkoIryna/kn-2026)
+
 ---
 
 ## Технології, які використовувались
