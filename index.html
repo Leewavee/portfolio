@@ -1,4 +1,97 @@
-<html>
-    <head></head>
-    <body>Тут буде портфоліо</body>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПР 7 Bootstrap Портфоліо</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(270deg, #0f172a, #1e293b, #2b2b2b, #111827);
+            background-size: 600% 600%;
+            animation: gradientFlow 10s ease infinite;
+            color: white;
+        }
+
+        @keyframes gradientFlow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .card-custom {
+            background: rgba(0,0,0,0.7);
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.7);
+        }
+
+        .photo {
+            border: 3px solid #4da6ff;
+            border-radius: 15px;
+        }
+
+        .accent {
+            color: #4da6ff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    <div class="row card-custom p-4 align-items-center">
+
+        <!-- ЛІВА ЧАСТИНА -->
+        <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+            <img src="photo.png/photo1.jpg" class="img-fluid photo" alt="Моє фото">
+
+            <div class="mt-4 text-start">
+                <h5 class="accent">Контакти:</h5>
+                <p>📧 gametopday34@gmail.com</p>
+                <p>💬 Telegram: <a href="https://t.me/lIexwIexme" target="_blank">@lIexwIexme</a>
+                <p>💻 GitHub: <a href="https://github.com/Leewavee/portfolio" target="_blank">github.com/Leewavee</a>
+            </div>
+        </div>
+
+        <!-- ПРАВА ЧАСТИНА -->
+        <div class="col-12 col-md-8">
+            <h1 class="accent">Leewavee (lee)</h1>
+            <p>  <p>Мене звуть Рустам.</p> Я студент КНУБА, вчусь на першому курсі на спеціальності "Комп'ютерні науки".
+               <p>Цікавлюсь програмуванням на С++ та створенням сайтів, люблю грати в сюжетні ігри та займатись обслуговуванням присторів (ноутбуків, приставок, ПК).</p>
+            </p>
+
+            <div class="mt-4">
+                <h4 class="accent">Навички:</h4>
+                <ul>
+                    <li>C++ (базовий рівень)</li>
+                    <li>HTML / CSS</li>
+                    <li>Bootstrap</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
+
+            <div class="mt-4">
+                <h4 class="accent">Проєкти:</h4>
+                <ul>
+                    <li>Портфоліо сайт</li>
+                </ul>
+            </div>
+
+            <div class="mt-4">
+                <h4 class="accent">Освіта:</h4>
+                <ul>
+                    <li> <a href="https://www.knuba.edu.ua/" target="_blank">КНУБА</a> — <a href="https://fait.knuba.edu.ua/" target="_blank">ФАІТ</a> </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
